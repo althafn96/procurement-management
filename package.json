@@ -1,0 +1,37 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.2.1",
+        "@vue/compiler-sfc": "^3.0.11",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.1.0",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.2.1",
+        "postcss-import": "^12.0.1",
+        "tailwindcss": "^2.0.2"
+    },
+    "dependencies": {
+        "@vee-validate/rules": "^4.1.20",
+        "filepond": "^4.27.2",
+        "filepond-plugin-file-rename": "^1.1.8",
+        "filepond-plugin-file-validate-type": "^1.2.6",
+        "filepond-plugin-image-preview": "^4.6.6",
+        "filepond-plugin-pdf-preview": "^1.0.4",
+        "vee-validate": "^4.4.2",
+        "vue": "^3.0.11",
+        "vue-filepond": "^7.0.0",
+        "vue-loader": "^16.2.0",
+        "vue-multiselect": "^2.1.6"
+    }
+}
